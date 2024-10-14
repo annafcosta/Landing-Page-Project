@@ -1,10 +1,62 @@
-.image-header {
-    display: flex;
-    width: 1283px;
-    height: 500px
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@1,300&display=swap');
+
+body {
+    width: 100%;
+    background-color: #f6f6f6;
 }
 
 .logo {
     width: 60px;
     height: 60px;
+    margin-right: 10px;
+    border: #e8a1a1;
+    border-radius: 8px;
+}
+
+/* TITLE FORMATTING */
+h1 {
+    font-size: 30px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: #e8a1a1;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 25px;
+}
+
+.logo-title {
+    display: flex;
+    align-items: center;
+    margin-left: 225px;
+}
+
+nav {
+    margin-left: 300px;
+    margin-right: 20px;
+}
+
+.a1, .a2 {
+    letter-spacing: 3px;
+}
+
+.a1 {
+
+}
+
+.image-main {
+    display: flex;
+    padding-left: 222px;
+    padding-top: 35px;
+}
+
+.image-central {
+    width: 1433px;
+    height: 485px;
+    border-radius: 8px;
 }
