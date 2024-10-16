@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@1,300&display=swap');
+
+body {
+    margin: 0;
+    width: 100%;
+    background-color: #f6f6f6;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+    border: #e8a1a1;
+    border-radius: 8px;
+}
+
+/* TITLE FORMATTING */
+h1 {
+    font-size: 30px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: #e8a1a1;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5px;
+    margin-top: 20px;
+}
+
+.logo-title {
+    display: flex;
+    align-items: center;
+    margin-left: 225px;
+}
+
+/* NAV AND OPTIONS (tag a) FORMATTING */
+
+nav {
+    margin-right: 253px;
+    justify-content: space-around;
+}
+
+.a1 {
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 3px;
+    font-size: 20px;
+    margin-right: 20px;
+    color: #303030;
+    text-decoration: none
+}
+
+.a1:hover {
+    color: #e8a1a1;
+    font-weight: 700;
+    cursor: default;
+}
+
+.a2 {
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 3px;
+    font-size: 20px;
+    margin-right: 20px;
+    color: #303030;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.a2:hover {
+    color: #e8a1a1;
+    font-weight: 700;
+    cursor: default;
+}
+
+.a3 {
+    border: #e8a1a1 solid 2px;
+    border-radius: 5px;
+    background-color: #e8a1a1;
+    padding: 5px 20px;
+    font-size: 22px;
+    color: #f6f6f6;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    text-decoration: none
+}
+
+.a3:hover {
+    background-color: #f6f6f6;
+    border: #e8a1a1 solid 2px;
+    border-radius: 5px;
+    color: #e8a1a1;
+    cursor: default;
+}
+
+/* HOME FORMATTING */
+
+.title-text {
+    padding-top: 25px;
+    text-align: center;
+}
+
+.home {
+    background-color: #e8a1a1;
+    margin-top: 20px;
+    min-height: 80vh;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    color: #f6f6f6;
+}
+
+/* TABLES FORMATTING */
+
+.tables {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 180px;
+}
+
+.table {
+    border: #f6f6f6 solid 4px;
+    padding: 25px 15px 5px 15px;
+    margin-top: 30px;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.table:hover {
+    background-color: #f6f6f6;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+    border-color: #f6f6f6;
+}
+
+.table:hover h3,
+.table:hover p {
+    color: #e8a1a1;
+}
+
+.table:hover a {
+    background-color: #e8a1a1;
+    border: #e8a1a1 solid 2px;
+    border-radius: 5px;
+    color: #f6f6f6;
+    cursor: default;
+}
+
+.table img {
+    width: 360px;
+    height: auto;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #f6f6f6;
+    font-family: "Poppins", sans-serif;
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    letter-spacing: 1px;
+}
+
+.tables p {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    color: #f6f6f6;
+    margin-bottom: 35px;
+}
+
+/* Title inside the table */
+.table h3 {
+    margin-top: 30px;
+}
+
+.table .price-booking {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    margin-top: 20px;
+}
+
+.price-booking a {
+    border: #f6f6f6 solid 2px;
+    border-radius: 5px;
+    background-color: #f6f6f6;
+    padding: 5px 20px;
+    font-size: 22px;
+    color: #e8a1a1;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    text-decoration: none
+}
+
+.price-booking p {
+    font-size: 22px;
+    font-weight: bold;
+}
+
