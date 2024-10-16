@@ -16,6 +16,9 @@ body {
     border-radius: 8px;
 }
 
+.home1 {
+    min-height: 60vh;
+}
 /* TITLE FORMATTING */
 h1 {
     font-size: 30px;
@@ -136,6 +139,7 @@ h2 {
     color: #f6f6f6;
     font-family: "Poppins", sans-serif;
     font-weight: 600;
+    text-decoration: none;
 }
 
 .button:hover {
