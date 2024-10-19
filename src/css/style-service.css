@@ -96,6 +96,10 @@ nav {
     cursor: default;
 }
 
+.a3, .a2, .a3 {
+    transition: color 0.3s;
+}
+
 /* HOME FORMATTING */
 
 .home {
@@ -140,5 +144,15 @@ h2 {
     margin-top: 10px;
     margin-left: 15px;
     margin-right: 15px;
+    transition: hover 0.5s;
+}
+
+.figure1:hover,
+.figure2:hover,
+.figure3:hover {
+    background-color: #f6f6f6;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+    border-color: #f6f6f6;
 }
 

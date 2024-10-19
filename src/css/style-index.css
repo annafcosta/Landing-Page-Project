@@ -55,6 +55,7 @@ nav {
     margin-right: 20px;
     color: #303030;
     font-weight: bold;
+    transition: color 0.3s;
 }
 
 .a1:hover {
@@ -69,7 +70,8 @@ nav {
     font-size: 20px;
     margin-right: 20px;
     color: #303030;
-    text-decoration: none
+    text-decoration: none;
+    transition: color 0.3s;
 }
 
 .a2:hover {
@@ -87,7 +89,7 @@ nav {
     color: #f6f6f6;
     font-family: "Poppins", sans-serif;
     font-weight: 600;
-    text-decoration: none
+    text-decoration: none;
 }
 
 .a3:hover {
@@ -148,6 +150,7 @@ h2 {
     border-radius: 5px;
     color: #e8a1a1;
     cursor: default;
+    transition: color 0.3s;
 }
 
 .text-and-images {
@@ -167,6 +170,16 @@ h2 {
     object-fit: cover;
     border-radius: 8px;
     margin-top: 34px;
+    transition: all 0.3s ease-in-out;
+}
+
+.figure1:hover,
+.figure2:hover,
+.figure3:hover {
+    background-color: #f6f6f6;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+    border-color: #f6f6f6;
 }
 
 
