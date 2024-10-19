@@ -3,7 +3,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@1,300&display=swap');
 
 body {
+    box-sizing: border-box;
     margin: 0;
+    padding: 0;
     width: 100%;
     background-color: #f6f6f6;
 }
@@ -26,6 +28,7 @@ h1 {
 
 .header {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     padding: 10px 5px;
@@ -51,7 +54,8 @@ nav {
     font-size: 20px;
     margin-right: 20px;
     color: #303030;
-    text-decoration: none
+    text-decoration: none;
+    transition: color 0.3s;
 }
 
 .a1:hover {
@@ -68,6 +72,7 @@ nav {
     color: #303030;
     text-decoration: none;
     font-weight: bold;
+    transition: color 0.3s;
 }
 
 .a2:hover {
@@ -85,7 +90,8 @@ nav {
     color: #f6f6f6;
     font-family: "Poppins", sans-serif;
     font-weight: 600;
-    text-decoration: none
+    text-decoration: none;
+    transition: color 0.3s;
 }
 
 .a3:hover {
@@ -201,4 +207,12 @@ h2 {
     font-size: 22px;
     font-weight: bold;
 }
+
+/* Applying responsive grid */
+
+
+
+
+
+
 
